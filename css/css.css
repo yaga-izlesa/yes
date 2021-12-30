@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+body{
+   background-image: url(../img/backround1.jpg); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: 'Oswald', sans-serif;
+   font-size: 24px;
+   text-align: center;
+}
+.header-wrapper{
+   width: 1080px;
+   margin: 0 auto;
+    display: flex;
+     justify-content: space-between;
+      margin-bottom: 140px;
+      margin-top: 40px;
+      text-align: center;
+}
+.logo{
+   width: 130px;
+}
+.nav-link{
+   color: black;
+   font-weight: bold;
+text-decoration: none;
+margin-left: 30px;
+
+}
+.nav-link:hover{
+   border-bottom: 3px dashed;
+   color:#e95353 ;
+}
+h1{
+   color: gray;
+   text-align: center;
+}
+h2{
+   text-align: center;
+}
+.section-wrapper
+{
+   width: 1180px;
+   text-align: center;
+   margin: 0 auto;
+   padding: 20px 20px;
+   height: auto;
+   justify-content: space-between;
+}
+section{
+   background-color: #f0e1d2;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   height: auto;
+}
+.about-img {
+ width: 350px;
+   opacity: 0.7;
+}
+.main-wrapper{
+   background-image: url(../img/backsectionopas.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   display: flex;
+}
+.row{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.characters-item {
+   width: 300px;
+   text-align: unset;
+}
+.characters-item img{
+   width: 200px;
+   text-align: center;
+}
+.about-wrapper{
+   display: flex;
+}
+.about{
+   display: flex;
+   text-align:  justify;
+  
+}
+}
+.im{
+   width: 20%;
+}
